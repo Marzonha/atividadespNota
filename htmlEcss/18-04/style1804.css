@@ -1,8 +1,8 @@
 body{
     height: 60vh;
 }
-img{
-    width: 600px;
+.img{
+    width: 500px;
     height: 400px;
     margin-top: 30px;
 
@@ -15,24 +15,18 @@ img{
     left: 30px;
     margin-top: 5px;
 }
-.painel{
-    position: relative;
 
-}
 .menu{
     margin-top: 60px;
     margin-left: 15px;
 }
-.flex-container{
+.flex-box{
+    margin: 60px;
+    gap: 110px;
     display: flex;
     justify-content: space-between;
     flex-direction:row;
     flex-wrap: wrap;
-    
-     
-}
-.flex-box{
-    margin: 60px;
 
 }
 .txtimg{
