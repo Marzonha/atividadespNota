@@ -1,0 +1,78 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 2fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "heading1 heading2 heading3 heading4"
+      "LG Meio Meio LG2"
+      "LG heading5 heading6 LG2";
+  }
+
+.heading1 { 
+    grid-area: heading1;
+    background-color: rgb(6, 156, 106);  
+}
+.heading2 {
+    grid-area: heading2;
+    background-color: rgb(9, 204, 139); 
+   
+    
+    
+}
+
+.heading3 {
+    grid-area: heading3;
+    background-color: aquamarine;
+   
+
+}
+
+.heading4 { 
+    grid-area: heading4;
+    background-color:rgb(17, 189, 180);
+   
+    
+}
+.LG { 
+    grid-area: LG;
+    background-color: rgb(38, 224, 162);
+    width: 300px;
+   
+        
+}
+
+.Meio {
+    grid-area: Meio;
+    background-color: rgb(3, 146, 110);
+   
+    
+}
+  
+.heading5 {
+    grid-area: heading5;
+    background-color: rgb(9, 119, 82);
+    width: 400px;
+    height: 200px;
+   
+    
+}
+  
+.heading6 {
+    grid-area: heading6;
+    background-color: rgb(13, 110, 78);
+    width: 400px;
+    height: 200px;
+   
+
+
+
+}
+.LG2 {
+    grid-area: LG2;
+    background-color: rgb(38, 224, 162);
+    width: 300px;
+   
+}
+      
+      
+  
